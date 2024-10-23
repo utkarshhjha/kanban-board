@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  padding: 1rem;
+}
+
+dropdown {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+.dropdown-toggle {
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: white;
+}
+
+.dropdown-toggle img.dropdown-icon {
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+
+.dropdown-toggle img.arrow-icon {
+  margin-left: 0.3rem;
+  width: 20px;
+}
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  z-index: 1;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  width: 180px;
+  
+}
+.dropdown-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.dropdown-row p {
+  font-size: 0.9rem;
+  color: rgb(144, 144, 152);
+  font-weight: bold;
+  
+}
+
+.dropdown-item {
+  margin-bottom: 10px;
+}
+.dropdown-item label {
+  margin-right: 10px;
+}
+.dropdown-label {
+  font-weight: 600;
+}
+.dropdown-toggle p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+select {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+.label {
+  font-size: 1rem;
+}
